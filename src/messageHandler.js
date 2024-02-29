@@ -1,4 +1,4 @@
-require('dotenv/config');
+require("dotenv/config");
 const { OpenAI } = require("openai");
 
 const openai = new OpenAI({
@@ -38,7 +38,7 @@ async function handleMessage(client, message) {
 
   // correct order
   prevMessages.reverse();
-  
+
   // loop through each prev messages to push to the convo array
   prevMessages.forEach((msg) => {
     // if the msg auth was a bot and the id does not match our bot id then we'll ignore the msg.
