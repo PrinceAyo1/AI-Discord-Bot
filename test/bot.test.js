@@ -1,7 +1,7 @@
 const { client } = require("../src/bot");
 
-/*****  
-mock data 
+/*****
+mock data
 *****/
 const pass_client_key_object = [
   "_events",
